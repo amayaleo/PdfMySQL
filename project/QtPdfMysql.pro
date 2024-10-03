@@ -16,9 +16,9 @@ QT += core
 
 QT       += printsupport
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += include/mainwindow.h
 
 FORMS    += mainwindow.ui
